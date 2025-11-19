@@ -43,7 +43,7 @@ export default function Home() {
         "
         >
           {/* 여기에 이미지 넣으면 됩니다 */}
-          <img src="src/image/hsm_photo.jpg" className="w-full h-full object-cover" />
+          <img src="./image/hsm_photo.jpg" className="w-full h-full object-cover" />
         </div>
       </motion.div>
 
