@@ -48,7 +48,7 @@ const projectList: Project[] = [
     id: 4,
     title: "주문 관리 서비스 (학습 프로젝트)",
     description:
-      "Spring Boot + JPA 기반 주문 관리 CRUD 학습 프로젝트입니다.",
+      "Axon Framework + Axon Server를 학습하기 위한 프로젝트 입니다.",
     tech: ["Spring Boot", "JPA", "H2 DB", "Axon Project", "MSA", "Docker", "DDD", "Event Sourcing"],
     image: img4,
     link: "https://github.com/hamsungmin/AxonProject",
