@@ -24,7 +24,7 @@ const projectList: Project[] = [
       "금융 테스트 자동화 솔루션 ‘메시지테스터’를 Kafka 기반 MSA 아키텍처로 재구성한 프로젝트입니다.",
     tech: ["Spring Boot", "Kafka", "Redis", "PostgreSQL", "Docker", "ElasticSearch"],
     image: img1,
-    link: null, // GitHub 없음
+    link: "https://github.com/hamsungmin/codeSimpleProject", // GitHub 없음
   },
   {
     id: 2,
