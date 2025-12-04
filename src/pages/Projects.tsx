@@ -6,6 +6,7 @@ import img1 from "../image/project_messagetester.png";
 import img2 from "../image/project_loadtest.png";
 import img3 from "../image/project_scenario.png";
 import img4 from "../image/project_order.png";
+import img5 from "../image/project_gamlog.png";
 
 interface Project {
   id: number;
@@ -52,6 +53,15 @@ const projectList: Project[] = [
     tech: ["Spring Boot", "JPA", "H2 DB", "Axon Project", "MSA", "Docker", "DDD", "Event Sourcing"],
     image: img4,
     link: "https://github.com/hamsungmin/AxonProject",
+  },
+  {
+    id: 5,
+    title: "감성 일기 (개인 프로젝트)",
+    description:
+      "감정 분석 AI 모델을 활용한 감성 일기 웹 애플리케이션 프로젝트 입니다.",
+    tech: ["Spring Boot", "JPA", "React", "Python", "HuggingFace", "MSA", "Docker", "Docker Compose", "Kafka"],
+    image: img5,
+    link: "https://github.com/hamsungmin/gamlog",
   },
 ];
 
